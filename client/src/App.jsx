@@ -1,27 +1,29 @@
 import { Routes, Route } from "react-router-dom";
 
 import CursorGlow from "./components/ui/CursorGlow";
+import ScrollProgress from "./components/ui/ScrollProgress";
 
 import Navbar from "./components/Layout/Navbar";
+import Background from "./components/Layout/Background";
+import Footer from "./components/Layout/Footer";
+
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Journey from "./sections/Journey";
-import Education from "./components/Education";
-import Certificates from "./components/Certificates";
 import Github from "./sections/Github";
 import Contact from "./sections/Contact";
-import Footer from "./components/Layout/Footer";
-import Background from "./components/layout/Background";
+
+import Education from "./components/Education";
+import Certificates from "./components/Certificates";
 
 import Dashboard from "./admin/Dashboard";
-import ScrollProgress from "./components/ui/ScrollProgress";
 
 function Portfolio() {
   return (
     <>
-      <ScrollProgress/>
+      <ScrollProgress />
       <CursorGlow />
 
       <Background />
@@ -44,7 +46,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Portfolio />} />
-
       <Route path="/admin" element={<Dashboard />} />
     </Routes>
   );
