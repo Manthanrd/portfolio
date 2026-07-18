@@ -1,0 +1,45 @@
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:14px 30px;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+    transition:all .3s ease;
+
+    cursor:pointer;
+}
+
+.btn-primary{
+
+    background:var(--primary);
+
+    color:white;
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow-md);
+}
+
+.btn-secondary{
+
+    border:2px solid var(--primary);
+
+    background:transparent;
+
+    color:var(--primary);
+}
+
+.btn-secondary:hover{
+
+    background:var(--primary);
+
+    color:white;
+}

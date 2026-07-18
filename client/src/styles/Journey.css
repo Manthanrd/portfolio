@@ -1,0 +1,12 @@
+.timeline{
+
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+max-width:850px;
+
+margin:auto;
+}

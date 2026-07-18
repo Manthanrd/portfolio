@@ -1,0 +1,107 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/* ===========================
+   CSS Variables
+=========================== */
+
+:root{
+
+    /* Colors */
+
+    --primary:#4F46E5;
+    --secondary:#7C3AED;
+    --accent:#06B6D4;
+
+    --background:#F8FAFC;
+    --surface:#FFFFFF;
+
+    --text:#0F172A;
+    --text-light:#475569;
+
+    --border:#E2E8F0;
+
+    /* Shadows */
+
+    --shadow-sm:0 4px 10px rgba(0,0,0,.05);
+
+    --shadow-md:0 10px 30px rgba(0,0,0,.08);
+
+    --shadow-lg:0 25px 50px rgba(0,0,0,.15);
+
+    /* Radius */
+
+    --radius:16px;
+
+    /* Transition */
+
+    --transition:.35s ease;
+}
+
+/* ===========================
+   Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+background:transparent;
+
+color:white;
+
+font-family:'Poppins',sans-serif;
+
+overflow-x:hidden;
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+}
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    font-family:inherit;
+}
+
+section{
+
+padding:110px 8%;
+
+position:relative;
+}
+
+.container{
+
+    max-width:1200px;
+
+    margin:auto;
+}
+*{
+cursor:none;
+}
